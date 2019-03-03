@@ -10,10 +10,23 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(array, remove)
-  array.pop(remove)
+def pop_with_args(array)
+  array.pop(2)
 end
 
 def using_shift(array)
   array.shift
 end
+
+def shift_with_args(array)
+  arr.shift(2)
+end
+
+def using_concat(array1, array2)
+  array.concat(array2)
+end
+
+def using_insert(array, element)
+  array.insert(3, element)
+end
+
